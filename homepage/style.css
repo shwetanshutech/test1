@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.header{
+	height:100vh;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+/*------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #35F7CA;
+}
+/*---------------------*/
+
+
+.jumbotron {
+    background-color:transparent !important; 
+}
+
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+
+
+.icon-bar{
+	background-color:navy;
+	width:500px;
+	border-radius: 50px;
+}
+
+
+a.btn{
+	margin:30px 10px;
+	width:150px;
+	padding:10px;
+	border-radius:20px;
+}
+
+a.btn-learnmore{
+	background-color: darkblue;
+	color: #fff;
+	font-size: 15px;
+	
+}
+
+
+.headtext{
+	margin: 10px 10px;
+	font-family: "Georgia";
+}
+
+.ptext{
+	margin: 10px 10px;
+	color: #05179F;
+	font-family: "Bookman";
+	
+
+}
+
+.supporttext{
+	margin: 10px 10px;
+	color: #333;
+	float: right;
+	margin-right: 120px;
+	margin-top: -23px;
+	position: relative;
+
+}
+
+.homepage{
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nemicon{
+	height: 50px;
+	width: 50px;
+}
+

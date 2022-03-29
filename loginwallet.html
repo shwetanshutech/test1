@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Login</title>
+	<link rel="stylesheet" type="text/css" href="loginwallet/css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="homepage/img/homepic.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<script src="loginwallet/js/loginvalidation.js"></script>
+</head>
+<body>
+
+	<ul>
+		<li style="float:right"><a class="active" href="index.html">Home</a></li>
+		<li style="float:right"><a href="#">Create new wallet</a></li>
+		<li style="float:right"><a href="" style="text-decoration:underline; font-style:italic;">Need Help?</a></li>
+		<li style="float:right"><a href="#">About</a></li>
+	</ul>
+	
+	<img class="wave" src="loginwallet/img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="loginwallet/img/bg.svg">
+		</div>
+		<div class="login-content">
+			
+			<!-- <form name="loginform" onsubmit="return validateForm();" action="http://localhost:8080/P2PTrading/UserpagewithServer.php" method="post"> -->
+			<form name="loginform" onsubmit="return validateForm();" action="userpage.html" method="post"> 
+			
+			<!-- action="userpage.html" -->
+				<img src="loginwallet/img/avatar.png">
+				<h2 class="title" style="font-size:30px">Login Account</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Wallet Profile</h5>
+           		   		<input style="color:#e5ed00;" type="text" class="input" name="usr">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input style="color:#e5ed00;" type="password" class="input" name="pword">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="loginbtn" name="submit" value="Login" >
+				
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="loginwallet/js/main.js"></script>
+	
+	
+</body>
+</html>

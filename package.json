@@ -1,0 +1,23 @@
+{
+  "name": "nemtest",
+  "version": "8.9.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "git-clone": "^0.1.0",
+    "nem-sdk": "^1.6.7",
+    "nem2-sdk": "file:node_modules/nem2-sdk",
+    "npm-git": "^0.1.29",
+    "npm-git-install": "^0.3.0",
+    "rxjs": "^6.6.0",
+    "symbol-cli": "^0.18.2",
+    "symbol-sdk": "^0.20.6"
+  },
+  "devDependencies": {},
+  "description": ""
+}
